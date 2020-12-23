@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header/Header';
+import Search from './components/Search/Search';
+import Result from './components/Result/Result';
 
 function App() {
+
+const [inputQuery, setCount] = useState("");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <Search inputQuery={inputQuery} setCount={setCount}></Search>
+      <Result inputQuery={inputQuery} ></Result>
     </div>
   );
 }

@@ -1,0 +1,7 @@
+.TabResult{
+    height: 80px;
+    background-color: lightgray;
+    color: red;
+    margin: 5px;
+    font-size: 24px;
+}

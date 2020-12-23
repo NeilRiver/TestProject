@@ -1,0 +1,12 @@
+.Search{
+}
+
+.Search input{
+    width: 500px;
+    height: 30px;
+    margin-right: 10px;
+}
+.Search button{
+    width: 100px;
+    height: 30px;
+}
