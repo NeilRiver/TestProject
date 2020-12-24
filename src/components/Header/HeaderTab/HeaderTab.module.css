@@ -1,0 +1,13 @@
+.Tab{
+    font-size: 22px;
+    background-color: midnightblue;
+    border: 1px solid whitesmoke;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+}
+
+.Tab:hover {
+    background-color: rgb(35, 85, 35);
+}

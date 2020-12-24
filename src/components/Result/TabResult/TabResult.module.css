@@ -1,7 +1,42 @@
 .TabResult{
-    height: 80px;
+    min-height: 80px;
+    max-width: 900px;
     background-color: lightgray;
-    color: red;
-    margin: 5px;
+    color: black;
+    margin: 8px;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #EEDDFF;
+    border: 2px solid #7922CC;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.ShadowStyle :hover{
+    z-index: 10;
+    border: 2px solid rgba(219, 45, 10, 0.9);   
+    box-shadow: 0 0 10px 5px rgba(219, 45, 10, 0.9); 
+}
+
+.Id{
+    pointer-events: none;
+    padding: 0 0 0 10px;
+    border-radius: 23px 23px 0 0;
+    margin-bottom: 10px;
+    background-color: goldenrod;
+}
+
+.Title{
+    pointer-events: none;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+}
+
+.Text{
+    pointer-events: none;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
 }

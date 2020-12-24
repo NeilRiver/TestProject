@@ -1,0 +1,5 @@
+.Header{
+    display: flex;
+    border: 1px solid rgb(201, 191, 191);
+    width: 95%;
+}
